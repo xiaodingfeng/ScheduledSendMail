@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>[[${title}]]</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Londrina+Outline|Londrina+Solid" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/swing.css" />
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("你的浏览器不支持CSS变量，请使用其它浏览器观看demo。");</script>	
+</head>
+<!--
+更多语法参考 thymeleaf官网
+-->
+	<body class="demo-swing">
+		<main>
+			<section class="content content--layout">
+				<h2 class="word word--swing">[[${content}]]</h2>
+			</section>
+		</main>
+		
+	
+	<script src="js/charming.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/demo4.js"></script>
+</body>
+</html>
